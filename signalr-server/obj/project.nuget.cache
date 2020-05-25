@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pc+Ey1E5POqujInWxPHaazoDcw006Tu35Eh5MlZKi74WoQdu7XILfbhqVDuEXKwYFVbGYfLda9e/Rhkz+fr9IQ==",
+  "success": true,
+  "projectFilePath": "D:\\Demo\\signalr-performance\\signalr-server\\signalr.server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dangt\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\dangt\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

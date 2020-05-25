@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  server:
+    build:
+      context: signalr-server
+      dockerfile: Dockerfile
+    ports: 
+      - "5000:80"
+    networks:
+      - internal
+
+networks:
+  internal:
+    external: false
