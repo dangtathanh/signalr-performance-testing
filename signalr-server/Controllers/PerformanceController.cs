@@ -47,5 +47,15 @@ namespace signalr.server.Controllers
                 NumMsgReceived = _counterService.MessagesReplied.Count
             });
         }
+
+        //reset
+        [Route("reset")]
+        [HttpPut]
+        public IActionResult ResetAsync()
+        {
+            Console.WriteLine("Reset testing result");
+            _counterService.ResetAll();          
+            return Ok();
+        }
     }
 }

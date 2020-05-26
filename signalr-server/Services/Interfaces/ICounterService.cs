@@ -8,5 +8,6 @@ namespace signalr.server.Services
         ConcurrentDictionary<string, string> ConnectionIds { set; get; }
         ConcurrentBag<KeyValuePair<string, string>> MessagesReplied { set; get; }
         void Reset();
+        void ResetAll();
     }
 }

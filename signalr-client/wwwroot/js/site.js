@@ -7,7 +7,7 @@
 var $tblMsg = $('#tbl-messages');
 var $rowMsgTemplate = $tblMsg.find('.msg-item.d-none');
 var $btnConnect = $('.btn-primary');
-var $btnSend = $('.btn-success');
+var $btnSend = $('.btn-success.btn-sent');
 
 function connect() {
     $btnConnect.attr("disabled", "disabled");
@@ -116,7 +116,7 @@ function chathub() {
             );
     }
 
-    function appendMessage(sender, receiver, message) {
+    async function appendMessage(sender, receiver, message) {
         var $row = $rowMsgTemplate.clone().removeClass('d-none');
         $row.find('.msg-item-sender').text(sender);
         $row.find('.msg-item-receiver').text(receiver);

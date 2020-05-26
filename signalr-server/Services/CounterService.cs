@@ -11,5 +11,11 @@ namespace signalr.server.Services
         {
             MessagesReplied = new ConcurrentBag<KeyValuePair<string, string>>();
         }
+
+        public void ResetAll()
+        {
+            MessagesReplied = new ConcurrentBag<KeyValuePair<string, string>>();
+            MessagesReplied = new ConcurrentBag<KeyValuePair<string, string>>();
+        }
     }
 }
